@@ -11,7 +11,7 @@ library(RPostgreSQL)
 
 drv <- dbDriver("PostgreSQL")
 con <- dbConnect(drv, dbname = "ikap", host = "10.68.0.77",
-                 port = 5432, user = "postgres", password = "ogc4tk")
+                 port = 5432, user = "postgres", password = "xxxxxx")
 postgresqlpqExec(con, "SET client_encoding = 'windows-1252'")
 
 
